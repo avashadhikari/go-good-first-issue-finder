@@ -77,6 +77,7 @@ func prepareRequest(url, query, token string, page, perPage int) *http.Request {
 	q.Add("order", "desc")
 	q.Add("per_page", strconv.Itoa(perPage))
 	q.Add("page", strconv.Itoa(page))
+	q.Add("sort", "updated")
 	req.URL.RawQuery = q.Encode()
 	return req
 }
