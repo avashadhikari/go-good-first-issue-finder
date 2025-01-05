@@ -4,7 +4,9 @@ import (
 	"strings"
 )
 
-func getOrgStrings() (res []string) {
+// GetOrgStrings returns a slice of strings that contain the search filter for orgs
+// They are split into multiple strings because the search query can only be 2000 characters long
+func GetOrgStrings() (res []string) {
 	companies := getCompanyNames()
 	curStr := ""
 	for _, c := range companies {
@@ -20,6 +22,7 @@ func getOrgStrings() (res []string) {
 	return
 }
 
+// getCompanyNames returns a slice of strings that contain the company names
 func getCompanyNames() (res []string) {
 	companies := `
  1. microsoft 3006218
