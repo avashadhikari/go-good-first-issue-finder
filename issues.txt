@@ -98,6 +98,40 @@ Verify injector works on Minishift: https://github.com/hashicorp/vault-k8s/issue
 Migrate to goavro v2: https://github.com/uber/storagetapper/issues/53
 Migrate to HDFS library branch with Kerberos support: https://github.com/uber/storagetapper/issues/28
 Add stdout output support: https://github.com/uber/storagetapper/issues/24
+Add support for command line config options: https://github.com/uber/storagetapper/issues/23
+clusterloader2 should be covered with unit tests: https://github.com/kubernetes/perf-tests/issues/572
+Add sparklines for node list: https://github.com/kubernetes/dashboard/issues/3768
+Expand documentation of mapping: https://github.com/prometheus/graphite_exporter/issues/82
+Make 'request.Timespan' & 'request.Interval' Configurable: https://github.com/Azure/azure-k8s-metrics-adapter/issues/62
+Add a raw output option to a property queried with "wsk property get": https://github.com/apache/openwhisk-cli/issues/407
+Fix disabled tests under windows : https://github.com/grafana/k6/issues/902
+Document scenarios for sending graphite metrics to graphite_exporter: https://github.com/prometheus/graphite_exporter/issues/74
+Support for HTTP requests/s: https://github.com/microsoft/ethr/issues/57
+tika: create integration tests for new server versions: https://github.com/google/go-tika/issues/9
+tika: add latest server versions: https://github.com/google/go-tika/issues/7
+no support for forcing pass-through of ANSI colors: https://github.com/apache/openwhisk-cli/issues/384
+Handle upper and lower cases for flexvol properties: https://github.com/Azure/kubernetes-keyvault-flexvol/issues/19
+Implement discoverability for external and custom metrics: https://github.com/Azure/azure-k8s-metrics-adapter/issues/3
+provide -f flag on wsk action get --save to overwrite local file: https://github.com/apache/openwhisk-cli/issues/346
+Support /etc/docker/certs.d/: https://github.com/google/go-containerregistry/issues/211
+wsk activation get <id> --last is buggy: https://github.com/apache/openwhisk-cli/issues/322
+Annotations are missing from get rule: https://github.com/apache/openwhisk-cli/issues/245
+Update quickstart guides to mention API Aggregation is required: https://github.com/Azure/open-service-broker-azure/issues/322
+Update cURL examples in module docs to be paramaterized with environment variables. : https://github.com/Azure/open-service-broker-azure/issues/321
+Update module examples to reference k8s contrib files using URL: https://github.com/Azure/open-service-broker-azure/issues/320
+Button for suspend/resume cronjob on detail page: https://github.com/kubernetes/dashboard/issues/2836
+The Quickstart guides should reference using svcat for examining the resources created by helm: https://github.com/Azure/open-service-broker-azure/issues/235
+support --count on wsk <collection> list: https://github.com/apache/openwhisk-cli/issues/187
+Make the Azure CLI setup steps in the quickstart easier: https://github.com/Azure/open-service-broker-azure/issues/127
+wsk activation poll <id>: https://github.com/apache/openwhisk-cli/issues/152
+CLI error messages are replicated three times: https://github.com/apache/openwhisk-cli/issues/139
+wsk property get does not work if api host is not set: https://github.com/apache/openwhisk-cli/issues/131
+Add a quick status utilility: https://github.com/apache/openwhisk-cli/issues/123
+remove wsk package refresh: https://github.com/apache/openwhisk-cli/issues/119
+Would you support Scala?: https://github.com/Azure/draft-classic/issues/393
+smarter detection on "start command" for python apps: https://github.com/Azure/draft-classic/issues/352
+Add flag to convert non-web actions when adding apis : https://github.com/apache/openwhisk-cli/issues/45
+rows of wsk activation list have trailing whitespaces: https://github.com/apache/openwhisk-cli/issues/42
 Enhance Unit Test Coverage: Tracking Issue: https://github.com/pingcap/ticdc/issues/758
 Improve test coverage for TakeOwnership option: https://github.com/helm/helm/issues/13519
 Missing support for RPC API over HTTPS: https://github.com/ipfs/kubo/issues/10539
